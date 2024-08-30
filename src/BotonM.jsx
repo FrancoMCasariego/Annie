@@ -42,7 +42,7 @@ const MovingButton = () => {
   }, []);
 
   return (
-    <div style={{ textAlign: 'center', marginTop: '50px', position: 'relative', height: '300px', width: '600px', marginLeft: '20%' }}>
+    <div style={{ textAlign: 'center', marginTop: '50px', position: 'relative', height: '500px' }}>
       {!showHeart ? (
         <>
           <p>{message}</p>
