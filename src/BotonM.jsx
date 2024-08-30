@@ -29,11 +29,11 @@ const MovingButton = () => {
   useEffect(() => {
     const messageTimer = setTimeout(() => {
       setMessage('Deja de intentar apretar el no, acepta tu destino');
-    }, 3000);
+    }, 20000);
 
     const noButtonFadeTimer = setTimeout(() => {
       setNoButtonVisible(false);
-    }, 3000);
+    }, 20000);
 
     return () => {
       clearTimeout(messageTimer);
